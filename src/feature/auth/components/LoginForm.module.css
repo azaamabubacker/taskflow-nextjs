@@ -19,3 +19,7 @@
 .usernameContainer input {
     color: white
 }
+
+.usernameContainer input {
+    color: 'tomato'
+}
