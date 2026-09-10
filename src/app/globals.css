@@ -1,3 +1,5 @@
+@import './theme.css';
+
 /* 1. Predictable box model */
 *, *::before, *::after {
   box-sizing: border-box;

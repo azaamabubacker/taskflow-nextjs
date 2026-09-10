@@ -1,0 +1,39 @@
+/* =========================================
+   LIGHT THEME (Default)
+   ========================================= */
+:root {
+  /* Backgrounds */
+  --bg-main: #f8fafc;        /* Very light gray for the whole page */
+  --bg-surface: #ffffff;     /* Pure white for cards, sidebars, navbars */
+  
+  /* Text */
+  --text-primary: #0f172a;   /* Nearly black for main headings/paragraphs */
+  --text-secondary: #64748b; /* Medium gray for subtitles, helper text */
+  
+  /* Accents (Buttons, Links, Active states) */
+  --accent-primary: #2563eb; /* Modern bright blue */
+  --accent-hover: #1d4ed8;   /* Slightly darker blue for hover states */
+  
+  /* Borders & Dividers */
+  --border-color: #e2e8f0;   /* Light subtle gray */
+}
+
+/* =========================================
+   DARK THEME
+   ========================================= */
+[data-theme='dark'] {
+  /* Backgrounds */
+  --bg-main: #0f172a;        /* Deep slate/navy for the whole page */
+  --bg-surface: #1e293b;     /* Slightly lighter slate for cards to stand out */
+  
+  /* Text */
+  --text-primary: #f8fafc;   /* Off-white so it doesn't strain eyes like pure white */
+  --text-secondary: #94a3b8; /* Lighter gray for readability */
+  
+  /* Accents */
+  --accent-primary: #3b82f6; /* Slightly brighter blue to pop against dark backgrounds */
+  --accent-hover: #60a5fa;   /* Even brighter blue for hover */
+  
+  /* Borders & Dividers */
+  --border-color: #334155;   /* Dark border to separate elements */
+}
